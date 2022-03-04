@@ -35,7 +35,7 @@ def play():
     print(f"Мен {len(word)} хонали сўз ўйладим. Топа оласизми?")
     # print(word)
     while word_letters:
-        print(display(user_letters, word))
+        print(consul_view(user_letters, word))
         if user_letters:
             print(f"Шу вақтгача киритган ҳарфларингиз: {user_letters}")
 
